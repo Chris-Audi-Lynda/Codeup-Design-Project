@@ -1,3 +1,11 @@
+:root {
+  background-color: #E6E6E6;
+  box-sizing: border-box;
+}
+p {
+  background-color: #E6E6E6;
+}
+
 .color-red {
   background-color: #E6563B;
   margin: 5px;
@@ -14,12 +22,25 @@
   background-color: #00ABA9;
   margin: 5px;
 }
-.circle {
+
+.rounded-circle {
+  font-family: 'Anton', sans-serif;
+  color: white;
   width: 105px;
   height: 105px;
   border-radius: 50%;
   border-width: thick;
   border-color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+
+}
+#circleContainer {
+  background-color: #E6E6E6;
+  display: flex;
+
 }
 
 .anton {
@@ -29,9 +50,32 @@
 .abel{
   font-family: 'Abel', sans-serif;
 }
+
 .body {
   background-color: #E6E6E6;
 }
 .logo {
   image-size: 105px x 105px;
+}
+#design, #smallDesign {
+  background-color: #E6563B;
+
+}
+#develop, #smallDevelop {
+  background-color: #DEA03D;
+}
+#support, #smallSupport {
+  background-color: #7CB06C;
+}
+#host, #smallHost {
+  background-color: #00ABA9;
+}
+#headings {
+  padding-top:0;
+}
+.jumbotron-fluid {
+  padding-bottom: 65px;
+}
+#designContainer {
+  align-content: space-evenly;
 }

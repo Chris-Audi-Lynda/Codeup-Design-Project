@@ -2,10 +2,32 @@
   background-color: #E6E6E6;
   box-sizing: border-box;
 }
+body {
+  background-color: #E6E6E6;
+}
+.jumbotron-fluid {
+  padding-bottom: 65px;
+}
+.logo {
+  image-size: 105px x 105px;
+}
+.anton {
+  font-family: 'Anton', sans-serif;
+}
+.abel{
+  font-family: 'Abel', sans-serif;
+}
+#brandName {
+  text-decoration-style: double ;
+
+}
 p {
   background-color: #E6E6E6;
 }
-
+#circleContainer {
+  background-color: #E6E6E6;
+  display: flex;
+}
 .color-red {
   background-color: #E6563B;
   margin: 5px;
@@ -22,7 +44,6 @@ p {
   background-color: #00ABA9;
   margin: 5px;
 }
-
 .rounded-circle {
   font-family: 'Anton', sans-serif;
   color: white;
@@ -34,33 +55,10 @@ p {
   align-items: center;
   justify-content: center;
   display: flex;
-
-
-}
-#circleContainer {
-  background-color: #E6E6E6;
-  display: flex;
-
 }
 
-.anton {
-  font-family: 'Anton', sans-serif;
-
-}
-.abel{
-  font-family: 'Abel', sans-serif;
-}
-
-body {
-  background-color: #E6E6E6;
-}
-
-.logo {
-  image-size: 105px x 105px;
-}
 #design, #smallDesign {
   background-color: #E6563B;
-
 }
 #develop, #smallDevelop {
   background-color: #DEA03D;
@@ -68,24 +66,30 @@ body {
 #support, #smallSupport {
   background-color: #7CB06C;
 }
+
 #host, #smallHost {
   background-color: #00ABA9;
 }
 #headings {
   padding-top:0;
 }
-.jumbotron-fluid {
-  padding-bottom: 65px;
-}
 #designContainer {
   align-content: space-evenly;
-}
-
-#circleContainer {
-  background-color: #E6E6E6;
 }
 
 hr {
   width: 65%;
 }
 
+#featured-projects-card {
+  width: 18px;
+  height: 18px
+}
+
+#mm {
+  height: 18px;
+  width: 18px;
+}
+.logo-pos {
+  top: 30px;
+}

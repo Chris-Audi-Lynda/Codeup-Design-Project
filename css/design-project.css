@@ -1,95 +1,134 @@
 :root {
-  background-color: #E6E6E6;
-  box-sizing: border-box;
+    background-color: #F0F0F0;
+    box-sizing: border-box;
 }
-body {
-  background-color: #E6E6E6;
-}
-.jumbotron-fluid {
-  padding-bottom: 65px;
-}
-.logo {
-  image-size: 105px x 105px;
-}
-.anton {
-  font-family: 'Anton', sans-serif;
-}
-.abel{
-  font-family: 'Abel', sans-serif;
-}
-#brandName {
-  text-decoration-style: double ;
 
+body {
+    background-color: #F0F0F0;
 }
+
+.jumbotron-fluid {
+    padding-bottom: 65px;
+}
+
+.logo {
+    image-size: 105px x 105px;
+}
+
+.anton {
+    font-family: 'Anton', sans-serif;
+}
+
+.abel {
+    font-family: 'Abel', sans-serif;
+}
+
+#brandName {
+    text-decoration-style: double;
+}
+
 p {
-  background-color: #E6E6E6;
+    background-color: #E6E6E6;
 }
+
 #circleContainer {
-  background-color: #E6E6E6;
-  display: flex;
+    background-color: #E6E6E6;
+    display: flex;
 }
+
 .color-red {
-  background-color: #E6563B;
-  margin: 5px;
+    background-color: #E6563B;
+    margin: 5px;
 }
+
 .color-orange {
-  background-color: #DEA03D;
-  margin: 5px;
+    background-color: #DEA03D;
+    margin: 5px;
 }
+
 .color-green {
-  background-color: #7CB06C;
-  margin: 5px;
+    background-color: #7CB06C;
+    margin: 5px;
 }
+
 .color-blue {
-  background-color: #00ABA9;
-  margin: 5px;
+    background-color: #00ABA9;
+    margin: 5px;
 }
+
 .rounded-circle {
-  font-family: 'Anton', sans-serif;
-  color: white;
-  width: 105px;
-  height: 105px;
-  border-radius: 50%;
-  border-width: thick;
-  border-color: white;
-  align-items: center;
-  justify-content: center;
-  display: flex;
+    font-family: 'Anton', sans-serif;
+    color: white;
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    border-width: thick;
+    border-color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: 5px solid white;
 }
 
 #design, #smallDesign {
-  background-color: #E6563B;
+    background-color: #E6563B;
 }
+
 #develop, #smallDevelop {
-  background-color: #DEA03D;
+    background-color: #DEA03D;
 }
+
 #support, #smallSupport {
-  background-color: #7CB06C;
+    background-color: #7CB06C;
 }
 
 #host, #smallHost {
-  background-color: #00ABA9;
+    background-color: #00ABA9;
 }
+
 #headings {
-  padding-top:0;
+    padding-top: 0;
 }
+
 #designContainer {
-  align-content: space-evenly;
+    align-content: space-evenly;
 }
 
 hr {
-  width: 65%;
+    width: 65%;
 }
 
 #featured-projects-card {
-  width: 18px;
-  height: 18px
+    width: 18px;
+    height: 18px
+}
+
+.img-fluid {
+    border: 5px solid #E6E6E6;
 }
 
 #mm {
-  height: 18px;
-  width: 18px;
+    height: 18px;
+    width: 18px;
 }
+
 .logo-pos {
-  top: 30px;
+    top: 30px;
+}
+
+.media-body {
+    font-size: 15px;
+    background-color: #F0F0F0;
+}
+
+p, img {
+    background-color: #F0F0F0;
+}
+
+.badge {
+    border-radius: 100%;
+}
+
+.list-group-item {
+    background-color: #F0F0F0;
 }
